@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="MindTrace - Understand your thinking patterns through guided self-reflection.">
+
+    <meta name="keywords"
+        content="MindTrace, self reflection, thinking patterns, emotions, thoughts, reframing">
+
+    <meta name="author" content="V. Harini">
+
+    <title>MindTrace | Understand Your Thinking Patterns</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-mark">M</span>
+                <span>MindTrace</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#patterns">Thinking Patterns</a>
+                <a href="#reflection">Reflect</a>
+            </nav>
+
+            <a href="#reflection" class="nav-button">
+                Begin Reflection
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================================
+             HERO SECTION
+        ========================================== -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <span class="eyebrow">
+                        GUIDED SELF-REFLECTION
+                    </span>
+
+                    <h1>
+                        Understand the
+                        <span>thoughts</span>
+                        behind your reactions.
+                    </h1>
+
+                    <p class="hero-description">
+                        MindTrace helps you explore how situations connect
+                        with automatic thoughts, emotions, behaviors, and
+                        alternative perspectives.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#reflection" class="primary-button">
+                            Begin a Reflection
+                            <span>→</span>
+                        </a>
+
+                        <a href="#how-it-works" class="secondary-button">
+                            Explore How It Works
+                        </a>
+
+                    </div>
+
+                    <div class="hero-note">
+                        <span class="note-dot"></span>
+                        A space for reflection, not diagnosis.
+                    </div>
+
+                </div>
+
+
+                <!-- Thought Map -->
+
+                <div class="hero-visual">
+
+                    <div class="visual-glow"></div>
+
+                    <div class="thought-map">
+
+                        <div class="map-line line-one"></div>
+                        <div class="map-line line-two"></div>
+                        <div class="map-line line-three"></div>
+                        <div class="map-line line-four"></div>
+
+                        <div class="thought-node node-situation">
+                            <span class="node-icon">01</span>
+                            <strong>Situation</strong>
+                            <small>What happened?</small>
+                        </div>
+
+                        <div class="thought-node node-thought">
+                            <span class="node-icon">02</span>
+                            <strong>Thought</strong>
+                            <small>What came to mind?</small>
+                        </div>
+
+                        <div class="thought-node node-emotion">
+                            <span class="node-icon">03</span>
+                            <strong>Emotion</strong>
+                            <small>What did you feel?</small>
+                        </div>
+
+                        <div class="thought-node node-behavior">
+                            <span class="node-icon">04</span>
+                            <strong>Behavior</strong>
+                            <small>What did you do?</small>
+                        </div>
+
+                        <div class="center-node">
+                            <span>MT</span>
+                            <small>MindTrace</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             INTRODUCTION
+        ========================================== -->
+
+        <section class="intro-section">
+
+            <div class="section-container intro-grid">
+
+                <div>
+                    <span class="eyebrow">THE IDEA</span>
+
+                    <h2>
+                        One situation can create
+                        an entire chain of responses.
+                    </h2>
+                </div>
+
+                <div class="intro-text">
+
+                    <p>
+                        Something happens. A thought appears. An emotion follows.
+                        Then we respond.
+                    </p>
+
+                    <p>
+                        MindTrace gives you a moment to slow that process down
+                        and look at each part separately.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             HOW IT WORKS
+        ========================================== -->
+
+        <section id="how-it-works" class="process-section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">THE REFLECTION JOURNEY</span>
+
+                    <h2>
+                        Trace the path from
+                        <span>thought to response.</span>
+                    </h2>
+
+                    <p>
+                        Move through each step at your own pace.
+                    </p>
+
+                </div>
+
+
+                <div class="process-grid">
+
+                    <article class="process-card">
+
+                        <div class="process-number">01</div>
+
+                        <div class="process-icon">◌</div>
+
+                        <h3>Situation</h3>
+
+                        <p>
+                            What happened? Describe the moment
+                            you want to understand.
+                        </p>
+
+                    </article>
+
+
+                    <article class="process-card featured">
+
+                        <div class="process-number">02</div>
+
+                        <div class="process-icon">✦</div>
+
+                        <h3>Automatic Thought</h3>
+
+                        <p>
+                            What was the first interpretation
+                            that came to mind?
+                        </p>
+
+                    </article>
+
+
+                    <article class="process-card">
+
+                        <div class="process-number">03</div>
+
+                        <div class="process-icon">♡</div>
+
+                        <h3>Emotion</h3>
+
+                        <p>
+                            Notice the emotion and how strongly
+                            you experienced it.
+                        </p>
+
+                    </article>
+
+
+                    <article class="process-card">
+
+                        <div class="process-number">04</div>
+
+                        <div class="process-icon">↗</div>
+
+                        <h3>Behavior</h3>
+
+                        <p>
+                            Explore how the thought and emotion
+                            influenced your response.
+                        </p>
+
+                    </article>
+
+
+                    <article class="process-card">
+
+                        <div class="process-number">05</div>
+
+                        <div class="process-icon">◎</div>
+
+                        <h3>Thinking Pattern</h3>
+
+                        <p>
+                            Explore a common thinking pattern
+                            that may relate to your reflection.
+                        </p>
+
+                    </article>
+
+
+                    <article class="process-card">
+
+                        <div class="process-number">06</div>
+
+                        <div class="process-icon">◇</div>
+
+                        <h3>Alternative Thought</h3>
+
+                        <p>
+                            Consider what else could be true
+                            about the situation.
+                        </p>
+
+                    </article>
+
+
+                    <article class="process-card">
+
+                        <div class="process-number">07</div>
+
+                        <div class="process-icon">↻</div>
+
+                        <h3>Reframing</h3>
+
+                        <p>
+                            Create a more balanced perspective
+                            that acknowledges uncertainty.
+                        </p>
+
+                    </article>
+
+
+                    <article class="process-card final-card">
+
+                        <div class="process-number">08</div>
+
+                        <div class="process-icon">✧</div>
+
+                        <h3>Reflection Summary</h3>
+
+                        <p>
+                            See your complete thought journey
+                            in one clear picture.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             REFLECTION SECTION
+        ========================================== -->
+
+        <section id="reflection" class="reflection-section">
+
+            <div class="section-container">
+
+                <div class="reflection-header">
+
+                    <span class="eyebrow">START HERE</span>
+
+                    <h2>
+                        Begin with a situation.
+                    </h2>
+
+                    <p>
+                        You don't need to explain everything.
+                        Just start with what happened.
+                    </p>
+
+                </div>
+
+
+                <div class="reflection-layout">
+
+                    <!-- Progress -->
+
+                    <aside class="reflection-sidebar">
+
+                        <div class="progress-title">
+                            YOUR REFLECTION
+                        </div>
+
+                        <div class="progress-step active">
+                            <span>01</span>
+                            <div>
+                                <strong>Situation</strong>
+                                <small>What happened?</small>
+                            </div>
+                        </div>
+
+                        <div class="progress-step">
+                            <span>02</span>
+                            <div>
+                                <strong>Thought</strong>
+                                <small>What came to mind?</small>
+                            </div>
+                        </div>
+
+                        <div class="progress-step">
+                            <span>03</span>
+                            <div>
+                                <strong>Emotion</strong>
+                                <small>What did you feel?</small>
+                            </div>
+                        </div>
+
+                        <div class="progress-step">
+                            <span>04</span>
+                            <div>
+                                <strong>Behavior</strong>
+                                <small>What did you do?</small>
+                            </div>
+                        </div>
+
+                        <div class="progress-step">
+                            <span>05</span>
+                            <div>
+                                <strong>Pattern</strong>
+                                <small>What do you notice?</small>
+                            </div>
+                        </div>
+
+                        <div class="progress-step">
+                            <span>06</span>
+                            <div>
+                                <strong>Reframe</strong>
+                                <small>What else could be true?</small>
+                            </div>
+                        </div>
+
+                    </aside>
+
+
+                    <!-- Reflection Form -->
+
+                    <div class="reflection-card">
+
+                        <form id="reflectionForm">
+
+                            <!-- STEP 1 -->
+
+                            <div class="reflection-step active" data-step="1">
+
+                                <span class="step-label">
+                                    STEP 01 / 06
+                                </span>
+
+                                <h3>
+                                    What happened?
+                                </h3>
+
+                                <p class="step-description">
+                                    Describe a situation you'd like to understand
+                                    a little better.
+                                </p>
+
+                                <label for="situation">
+                                    Your situation
+                                </label>
+
+                                <textarea
+                                    id="situation"
+                                    name="situation"
+                                    rows="7"
+                                    placeholder="For example: My friend didn't reply to my message for several hours..."
+                                    required
+                                ></textarea>
+
+                                <div class="form-footer">
+
+                                    <span class="character-note">
+                                        Start wherever feels comfortable.
+                                    </span>
+
+                                    <button type="button"
+                                            class="primary-button next-button"
+                                            data-next="2">
+                                        Continue
+                                        <span>→</span>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- STEP 2 -->
+
+                            <div class="reflection-step" data-step="2">
+
+                                <span class="step-label">
+                                    STEP 02 / 06
+                                </span>
+
+                                <h3>
+                                    What was your first thought?
+                                </h3>
+
+                                <p class="step-description">
+                                    What immediately came to mind when
+                                    the situation happened?
+                                </p>
+
+                                <label for="thought">
+                                    Automatic thought
+                                </label>
+
+                                <textarea
+                                    id="thought"
+                                    name="thought"
+                                    rows="6"
+                                    placeholder="For example: Maybe they don't like me anymore..."
+                                    required
+                                ></textarea>
+
+                                <div class="info-box">
+                                    <span>✦</span>
+                                    <p>
+                                        Automatic thoughts are immediate
+                                        interpretations that can appear before
+                                        we have time to consider other possibilities.
+                                    </p>
+                                </div>
+
+                                <div class="form-footer">
+
+                                    <button type="button"
+                                            class="back-button"
+                                            data-back="1">
+                                        ← Back
+                                    </button>
+
+                                    <button type="button"
+                                            class="primary-button next-button"
+                                            data-next="3">
+                                        Continue
+                                        <span>→</span>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- STEP 3 -->
+
+                            <div class="reflection-step" data-step="3">
+
+                                <span class="step-label">
+                                    STEP 03 / 06
+                                </span>
+
+                                <h3>
+                                    What did you feel?
+                                </h3>
+
+                                <p class="step-description">
+                                    Choose the emotion that feels closest
+                                    to your experience.
+                                </p>
+
+                                <div class="emotion-grid">
+
+                                    <button type="button"
+                                            class="emotion-option"
+                                            data-emotion="Calm">
+                                        <span>○</span>
+                                        Calm
+                                    </button>
+
+                                    <button type="button"
+                                            class="emotion-option"
+                                            data-emotion="Anxiety">
+                                        <span>◌</span>
+                                        Anxiety
+                                    </button>
+
+                                    <button type="button"
+                                            class="emotion-option"
+                                            data-emotion="Sadness">
+                                        <span>◇</span>
+                                        Sadness
+                                    </button>
+
+                                    <button type="button"
+                                            class="emotion-option"
+                                            data-emotion="Frustration">
+                                        <span>△</span>
+                                        Frustration
+                                    </button>
+
+                                    <button type="button"
+                                            class="emotion-option"
+                                            data-emotion="Worry">
+                                        <span>!</span>
+                                        Worry
+                                    </button>
+
+                                    <button type="button"
+                                            class="emotion-option"
+                                            data-emotion="Anger">
+                                        <span>↗</span>
+                                        Anger
+                                    </button>
+
+                                    <button type="button"
+                                            class="emotion-option"
+                                            data-emotion="Disappointment">
+                                        <span>—</span>
+                                        Disappointment
+                                    </button>
+
+                                    <button type="button"
+                                            class="emotion-option"
+                                            data-emotion="Confusion">
+                                        <span>?</span>
+                                        Confusion
+                                    </button>
+
+                                </div>
+
+                                <div class="intensity-area">
+
+                                    <div class="intensity-heading">
+                                        <label for="intensity">
+                                            How strong was the emotion?
+                                        </label>
+
+                                        <span id="intensityValue">
+                                            5 / 10
+                                        </span>
+                                    </div>
+
+                                    <input
+                                        type="range"
+                                        id="intensity"
+                                        name="intensity"
+                                        min="1"
+                                        max="10"
+                                        value="5"
+                                    >
+
+                                    <div class="range-labels">
+                                        <span>Low</span>
+                                        <span>High</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-footer">
+
+                                    <button type="button"
+                                            class="back-button"
+                                            data-back="2">
+                                        ← Back
+                                    </button>
+
+                                    <button type="button"
+                                            class="primary-button next-button"
+                                            data-next="4">
+                                        Continue
+                                        <span>→</span>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- STEP 4 -->
+
+                            <div class="reflection-step" data-step="4">
+
+                                <span class="step-label">
+                                    STEP 04 / 06
+                                </span>
+
+                                <h3>
+                                    How did you respond?
+                                </h3>
+
+                                <p class="step-description">
+                                    Notice what you did after the thought
+                                    and emotion appeared.
+                                </p>
+
+                                <div class="behavior-grid">
+
+                                    <button type="button"
+                                            class="behavior-option">
+                                        I kept thinking about it
+                                    </button>
+
+                                    <button type="button"
+                                            class="behavior-option">
+                                        I checked my phone repeatedly
+                                    </button>
+
+                                    <button type="button"
+                                            class="behavior-option">
+                                        I avoided the person
+                                    </button>
+
+                                    <button type="button"
+                                            class="behavior-option">
+                                        I asked what happened
+                                    </button>
+
+                                    <button type="button"
+                                            class="behavior-option">
+                                        I distracted myself
+                                    </button>
+
+                                    <button type="button"
+                                            class="behavior-option">
+                                        Something else
+                                    </button>
+
+                                </div>
+
+                                <label for="reaction">
+                                    Add anything else you noticed
+                                </label>
+
+                                <textarea
+                                    id="reaction"
+                                    name="reaction"
+                                    rows="4"
+                                    placeholder="What did you notice about your response?"
+                                ></textarea>
+
+                                <div class="form-footer">
+
+                                    <button type="button"
+                                            class="back-button"
+                                            data-back="3">
+                                        ← Back
+                                    </button>
+
+                                    <button type="button"
+                                            class="primary-button next-button"
+                                            data-next="5">
+                                        Continue
+                                        <span>→</span>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- STEP 5 -->
+
+                            <div class="reflection-step" data-step="5">
+
+                                <span class="step-label">
+                                    STEP 05 / 06
+                                </span>
+
+                                <h3>
+                                    What pattern do you notice?
+                                </h3>
+
+                                <p class="step-description">
+                                    Explore a thinking pattern that may
+                                    connect with your reflection.
+                                </p>
+
+                                <div class="pattern-options">
+
+                                    <button type="button"
+                                            class="pattern-option"
+                                            data-pattern="Mind Reading">
+
+                                        <strong>Mind Reading</strong>
+
+                                        <span>
+                                            Assuming you know what another
+                                            person is thinking.
+                                        </span>
+
+                                    </button>
+
+
+                                    <button type="button"
+                                            class="pattern-option"
+                                            data-pattern="Jumping to Conclusions">
+
+                                        <strong>Jumping to Conclusions</strong>
+
+                                        <span>
+                                            Reaching a conclusion before
+                                            having enough information.
+                                        </span>
+
+                                    </button>
+
+
+                                    <button type="button"
+                                            class="pattern-option"
+                                            data-pattern="Negative Prediction">
+
+                                        <strong>Negative Prediction</strong>
+
+                                        <span>
+                                            Expecting an unfavorable outcome
+                                            before it happens.
+                                        </span>
+
+                                    </button>
+
+
+                                    <button type="button"
+                                            class="pattern-option"
+                                            data-pattern="All-or-Nothing Thinking">
+
+                                        <strong>All-or-Nothing Thinking</strong>
+
+                                        <span>
+                                            Seeing a situation mainly in
+                                            extremes.
+                                        </span>
+
+                                    </button>
+
+                                </div>
+
+                                <div class="form-footer">
+
+                                    <button type="button"
+                                            class="back-button"
+                                            data-back="4">
+                                        ← Back
+                                    </button>
+
+                                    <button type="button"
+                                            class="primary-button next-button"
+                                            data-next="6">
+                                        Continue
+                                        <span>→</span>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- STEP 6 -->
+
+                            <div class="reflection-step" data-step="6">
+
+                                <span class="step-label">
+                                    STEP 06 / 06
+                                </span>
+
+                                <h3>
+                                    What else could you think?
+                                </h3>
+
+                                <p class="step-description">
+                                    You don't have to replace your first thought.
+                                    Simply explore another possibility.
+                                </p>
+
+                                <div class="thought-comparison">
+
+                                    <div class="thought-box original">
+
+                                        <span>
+                                            AUTOMATIC THOUGHT
+                                        </span>
+
+                                        <p id="summaryThought">
+                                            Your original thought will appear here.
+                                        </p>
+
+                                    </div>
+
+
+                                    <div class="thought-arrow">
+                                        ↓
+                                    </div>
+
+
+                                    <div class="thought-box alternative">
+
+                                        <span>
+                                            ALTERNATIVE THOUGHT
+                                        </span>
+
+                                        <textarea
+                                            id="alternativeThought"
+                                            name="alternativeThought"
+                                            rows="5"
+                                            placeholder="For example: They may simply be busy. I don't know the reason yet."
+                                        ></textarea>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="reframe-box">
+
+                                    <span class="reframe-label">
+                                        REFRAME
+                                    </span>
+
+                                    <h4>
+                                        Create a more balanced perspective.
+                                    </h4>
+
+                                    <textarea
+                                        id="reframe"
+                                        name="reframe"
+                                        rows="5"
+                                        placeholder="Write a perspective that acknowledges what you know — and what you don't know."
+                                    ></textarea>
+
+                                </div>
+
+
+                                <div class="form-footer">
+
+                                    <button type="button"
+                                            class="back-button"
+                                            data-back="5">
+                                        ← Back
+                                    </button>
+
+                                    <button type="submit"
+                                            class="primary-button">
+                                        Complete Reflection
+                                        <span>✦</span>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </form>
+
+
+                        <!-- SUMMARY -->
+
+                        <div id="summarySection" class="summary-section">
+
+                            <div class="summary-top">
+
+                                <span class="eyebrow">
+                                    YOUR MINDTRACE
+                                </span>
+
+                                <h3>
+                                    A moment to look back.
+                                </h3>
+
+                                <p>
+                                    Here's the path you explored through
+                                    this reflection.
+                                </p>
+
+                            </div>
+
+
+                            <div class="summary-flow">
+
+                                <div class="summary-item">
+                                    <span>01</span>
+                                    <small>Situation</small>
+                                    <p id="summarySituation">—</p>
+                                </div>
+
+                                <div class="summary-connector">↓</div>
+
+                                <div class="summary-item">
+                                    <span>02</span>
+                                    <small>Automatic Thought</small>
+                                    <p id="finalThought">—</p>
+                                </div>
+
+                                <div class="summary-connector">↓</div>
+
+                                <div class="summary-item">
+                                    <span>03</span>
+                                    <small>Emotion</small>
+                                    <p>
+                                        <strong id="finalEmotion">—</strong>
+                                        <em id="finalIntensity">—</em>
+                                    </p>
+                                </div>
+
+                                <div class="summary-connector">↓</div>
+
+                                <div class="summary-item">
+                                    <span>04</span>
+                                    <small>Thinking Pattern</small>
+                                    <p id="finalPattern">—</p>
+                                </div>
+
+                                <div class="summary-connector">↓</div>
+
+                                <div class="summary-item highlighted">
+                                    <span>05</span>
+                                    <small>Alternative Perspective</small>
+                                    <p id="finalAlternative">—</p>
+                                </div>
+
+                                <div class="summary-connector">↓</div>
+
+                                <div class="summary-item highlighted">
+                                    <span>06</span>
+                                    <small>Reframe</small>
+                                    <p id="finalReframe">—</p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="summary-footer">
+
+                                <p>
+                                    Reflection can create space between
+                                    what happens and how we respond.
+                                </p>
+
+                                <button
+                                    type="button"
+                                    class="primary-button"
+                                    id="newReflection">
+                                    Start Another Reflection
+                                    <span>→</span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             THINKING PATTERNS
+        ========================================== -->
+
+        <section id="patterns" class="patterns-section">
+
+            <div class="section-container">
+
+                <div class="section-heading centered">
+
+                    <span class="eyebrow">
+                        EXPLORE
+                    </span>
+
+                    <h2>
+                        Common thinking patterns.
+                    </h2>
+
+                    <p>
+                        Learning about patterns can help us notice
+                        how our interpretations influence our responses.
+                    </p>
+
+                </div>
+
+
+                <div class="pattern-library">
+
+                    <article class="library-card">
+
+                        <span class="library-number">01</span>
+
+                        <div class="library-icon">◌</div>
+
+                        <h3>Mind Reading</h3>
+
+                        <p>
+                            Assuming you know what another person is
+                            thinking or feeling without having enough information.
+                        </p>
+
+                        <div class="example">
+
+                            <span>EVERYDAY EXAMPLE</span>
+
+                            <p>
+                                “They didn't reply, so they must be upset with me.”
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="library-card">
+
+                        <span class="library-number">02</span>
+
+                        <div class="library-icon">◇</div>
+
+                        <h3>Jumping to Conclusions</h3>
+
+                        <p>
+                            Reaching a conclusion before you have
+                            enough information about what happened.
+                        </p>
+
+                        <div class="example">
+
+                            <span>EVERYDAY EXAMPLE</span>
+
+                            <p>
+                                “The meeting was quiet, so everyone must dislike my idea.”
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="library-card">
+
+                        <span class="library-number">03</span>
+
+                        <div class="library-icon">△</div>
+
+                        <h3>Negative Prediction</h3>
+
+                        <p>
+                            Expecting a difficult outcome before
+                            there is enough evidence to know what will happen.
+                        </p>
+
+                        <div class="example">
+
+                            <span>EVERYDAY EXAMPLE</span>
+
+                            <p>
+                                “I'm definitely going to mess up the presentation.”
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="library-card">
+
+                        <span class="library-number">04</span>
+
+                        <div class="library-icon">↔</div>
+
+                        <h3>All-or-Nothing Thinking</h3>
+
+                        <p>
+                            Viewing experiences mainly as complete success
+                            or complete failure rather than on a spectrum.
+                        </p>
+
+                        <div class="example">
+
+                            <span>EVERYDAY EXAMPLE</span>
+
+                            <p>
+                                “If I don't do this perfectly, I've failed.”
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="library-card">
+
+                        <span class="library-number">05</span>
+
+                        <div class="library-icon">↻</div>
+
+                        <h3>Overgeneralization</h3>
+
+                        <p>
+                            Taking one experience and applying it broadly
+                            to future situations.
+                        </p>
+
+                        <div class="example">
+
+                            <span>EVERYDAY EXAMPLE</span>
+
+                            <p>
+                                “That interview went badly. I am always bad at interviews.”
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="library-card">
+
+                        <span class="library-number">06</span>
+
+                        <div class="library-icon">◎</div>
+
+                        <h3>Personalization</h3>
+
+                        <p>
+                            Interpreting an event as being mainly about
+                            yourself when other explanations may exist.
+                        </p>
+
+                        <div class="example">
+
+                            <span>EVERYDAY EXAMPLE</span>
+
+                            <p>
+                                “They seem quiet today. I must have done something wrong.”
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CLOSING CTA
+        ========================================== -->
+
+        <section class="closing-section">
+
+            <div class="closing-card">
+
+                <span class="eyebrow">
+                    TAKE A MOMENT
+                </span>
+
+                <h2>
+                    A thought is a starting point,
+                    not always the whole story.
+                </h2>
+
+                <p>
+                    Give yourself a little space to explore
+                    what else might be possible.
+                </p>
+
+                <a href="#reflection" class="primary-button">
+                    Begin Your Reflection
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span class="logo-mark">M</span>
+                    <span>MindTrace</span>
+                </a>
+
+                <p>
+                    A space to pause, reflect,
+                    and explore another perspective.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+
+                    <span>EXPLORE</span>
+
+                    <a href="#home">Home</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#patterns">Thinking Patterns</a>
+
+                </div>
+
+
+                <div>
+
+                    <span>REFLECT</span>
+
+                    <a href="#reflection">Begin Reflection</a>
+                    <a href="#reflection">Your Thought Journey</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 MindTrace
+            </span>
+
+            <span>
+                Designed for reflection and learning.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
+```
